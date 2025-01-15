@@ -10,7 +10,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     /* place-content: center; */
+    
 }
 
 ul {
@@ -57,15 +59,14 @@ nav p {
 }
 .header {
     color: white;
-    background-image: url(/images/myimage.jpg);
-    background-size: 40%;
+    background-image: url(/images/image.png);
+    background-size: 45%;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.932);
-    background-position: right 1px;
+    background-position: 900px 1px;
     padding-top: 20px;
     padding-left: 70px;
     padding-right: 70px;
-    background: ;
 
 }
 p {
@@ -89,6 +90,8 @@ button {
 
 .pborder {
     border-bottom: 1px solid white;
+    margin-top:23px;
+    margin-bottom: 23px;
 }
 
 img {
@@ -96,8 +99,12 @@ img {
     object-fit: contain;
 }
 
-section{
+.aboutme{
     display: flex;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 193px;
+    padding-right: 193px;
 }
 @media (max-width:600px) {
     body{
@@ -108,4 +115,33 @@ section{
         padding: 20px;
         background-image: none;
     }
+}
+img {
+    width: 250px;
+    
+}
+.myinfo {
+    padding-left: 30px;
+    height: fit-content;
+    
+}
+.who {
+    color: rgb(22, 122, 22);
+    padding-top:20px; 
+    font-weight:900;
+    font-size: 20px;
+}
+h1 {
+    line-height: 40px;
+}
+.info {
+    display: flex;
+}
+
+.info div {
+    margin-right: 203px;
+}
+
+.info div p {
+    white-space: nowrap;
 }
